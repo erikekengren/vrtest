@@ -84,6 +84,13 @@ namespace ImportExportTest.Core.Data
 			command.ExecuteNonQuery();
 		}
 
+		public bool Commit()
+		{
+			// commit transation here
+
+			return true;
+		}
+
 		#endregion
 
 		#region Private Methods

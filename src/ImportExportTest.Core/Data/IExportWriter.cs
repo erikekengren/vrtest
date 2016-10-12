@@ -9,5 +9,7 @@ namespace ImportExportTest.Core.Data
 	public interface IExportWriter : IDisposable
 	{
 		void WriteItem(IDataItem dataItem);
+
+		bool Commit();
 	}
 }
